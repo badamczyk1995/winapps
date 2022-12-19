@@ -65,7 +65,7 @@
     <emulator>/usr/bin/qemu-system-x86_64</emulator>
     <disk type='file' device='cdrom'>
       <driver name='qemu' type='raw'/>
-      <source file='./Win10_2004_English_x64.iso' index='3'/>
+      <source file='./win10.iso' index='3'/>
       <backingStore/>
       <target dev='sdb' bus='sata'/>
       <readonly/>
@@ -75,7 +75,7 @@
     </disk>
     <disk type='file' device='cdrom'>
       <driver name='qemu' type='raw'/>
-      <source file='./virtio-win-0.1.185.iso' index='2'/>
+      <source file='./virtio.iso' index='2'/>
       <backingStore/>
       <target dev='sdc' bus='sata'/>
       <readonly/>

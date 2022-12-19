@@ -63,7 +63,7 @@
   </pm>
   <devices>
     <emulator>/usr/bin/qemu-system-x86_64</emulator>
-    <disk type='file' device='cdrom'>
+    <disk type='file' device='cdrom' id="3">
       <driver name='qemu' type='raw'/>
       <source file='./win10.iso' index='3'/>
       <backingStore/>
@@ -73,7 +73,7 @@
       <alias name='sata0-0-1'/>
       <address type='drive' controller='0' bus='0' target='0' unit='1'/>
     </disk>
-    <disk type='file' device='cdrom'>
+    <disk type='file' device='cdrom' id="2">
       <driver name='qemu' type='raw'/>
       <source file='./virtio.iso' index='2'/>
       <backingStore/>
@@ -82,7 +82,7 @@
       <alias name='sata0-0-2'/>
       <address type='drive' controller='0' bus='0' target='0' unit='2'/>
     </disk>
-    <disk type='file' device='disk'>
+    <disk type='file' device='disk' id="1">
       <driver name='qemu' type='qcow2'/>
       <source file='./RDPWindows.qcow2' index='1'/>
       <backingStore/>
